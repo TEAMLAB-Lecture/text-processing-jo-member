@@ -64,8 +64,4 @@ def no_vowels(input_string):
         if i in l:
             no_vowel_string = no_vowel_string.replace(i,'')
 
-
     return no_vowel_string
-
-s = "This is an example."
-print(no_vowels(s))
